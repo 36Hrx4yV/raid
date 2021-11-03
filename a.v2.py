@@ -112,7 +112,7 @@ while True:
     {y}└─[0] {m}- {g}Exit
 {y}====>{g}''')
         client = commands.Bot(command_prefix='?',intents=discord.Intents.all())
-            guild_id =  _input(f'{y}Input server id:{g}')
+ guild_id =  _input(f'{y}Input server id:{g}')
             @client.event
             async def on_ready():
                 for guild in client.guilds:
