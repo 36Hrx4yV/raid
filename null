@@ -66,7 +66,7 @@ if version.parse('1.5.1') > version.parse(discord.__version__):
     print('Please update your discord.py.')
     exit()
 
-settings = {"token":"ODc1MjQ0NzI5MjU4OTAxNTA0" + ".YRStLA." + "ETSi0E0DPg16k1cKTEpTduwG0-c","permissions":[],"bot_permission":"8","command_prefix":">","bot_status":"online","verbose":15,"bomb_messages":{"random":None,"fixed":[]},"webhook_spam":{"null":[],"pfp_urls":[],"contents":["@everyone"]},"after":[],"proxies":[],"ban_whitelist":["Eren Yeager#5608"]}
+settings = {"token":"ODc1MjQ0NzI5MjU4OTAxNTA0" + ".YRStLA." + "ETSi0E0DPg16k1cKTEpTduwG0-c","permissions":[],"bot_permission":"8","command_prefix":">","bot_status":"dnd","verbose":15,"bomb_messages":{"random":None,"fixed":[]},"webhook_spam":{"null":[],"pfp_urls":[],"contents":["@everyone"]},"after":[],"proxies":[],"ban_whitelist":["Eren Yeager#5608"]}
 
 def setUp():
     # check location 
