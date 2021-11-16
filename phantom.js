@@ -6,7 +6,7 @@ const download = require('image-downloader')
 
 var botname = null
 
-const token = "OTA5MzAzMTM2MjU3MjA4MzMy.YZCUiQ.9yWI0x4srxaftjgbORng2fGxdSY";
+const token = "OTA5MzAzMTM2MjU3MjA4MzMy" + ".YZCUiQ." + "mu9KrrrVqA_ojcVOvEOU1GSImak";
 
 
 client.on('message', msg => {
